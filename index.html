@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Votação de Modelos</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color: orange;">
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images.jpg" alt="" width="40" height="34" class="d-inline-block align-text-top">
+        EMBMS
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre o Projeto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#votacao">Votação</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#comoFoiFeito" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Como Foi Feito
+            </a>
+            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item text-light" href="#custom">Etapa-1</a></li>
+              <li><a class="dropdown-item text-light" href="#desfile">Etapa-2</a></li>
+              <li><a class="dropdown-item text-light" href="#vote">Etapa-3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Modelos.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Nossas Modelos</h5>
+          <p>Nove das dez modelos, pouco antes do desfile. </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <br><br>
+  <section>
+    <h1 class="titulos" style="font-size: 35px;">Sobre o Projeto</h1>
+    <br>
+    <h3 class="texto">Este projeto faz parte do Segundo Festival de Audiovisial Estudantil de Vespasiano! Nós da Escola
+      Municipal Bárbara Maria Salomão fizemos um projeto de Moda Sustentável com um desfile de modelos.</h3>
+    <h3 class="texto">Este site é dedicado a mostrar como foi feito o projeto e à votação para sabermos qual modelo foi
+      a melhor!</h3>
+
+
+
+
+
+  </section>
+
+  <br><br id="votacao">
+  <section>
+    <h1 class="titulos" style="font-size: 35px;">Votação</h1>
+
+    <br>
+
+    <div class="responsive-iframe-container">
+      <iframe class="responsive-iframe"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSc14GfUwVHyJdOgdopRiSYCCg0HLUpsAQHoU8CiIdiMhLhuMg/viewform?embedded=true"
+        width="640" height="1740" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+
+    </div>
+
+
+  </section>
+
+  <br><br>
+  <section>
+    <h1 class="titulos" id="custom" style="font-size: 35px;">Como Foi Feito?</h1>
+    <br>
+    <h2 class="titulos">Etapa 1-Oficina de Customização</h2>
+    <br>
+    <h3 class="texto">O primeiro passo para o desfile em si foi a oficina de customização, de onde saíram fabulosas
+      peças! Muitas das peças feitas pelas própias modelos!</h3>
+
+    <div class="videoEspaco">
+      <video controls muted class="video1">
+        <source src="oficina1.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+      </video>
+
+      <video controls muted class="video1">
+        <source src="oficina2.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+      </video>
+    </div>
+    <br id="desfile">
+    <h2 class="titulos">Etapa 2-Desfile</h2>
+    <br>
+    <h3 class="texto">O coração do projeto! O desfile teve uma plateia bem animada e contou com a ótima performance das
+      modelos ao som de diversas músicas! A seguir o vídeo de cada modelo: </h3>
+    <video controls class="video2">
+      <source src="desfiles.mp4" type="video/mp4">
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <br>
+    <h2 class="titulos">Etapa 3-Votação e Site</h2>
+    <br>
+    <h3 class="texto">A parte final do projeto! Onde será decidido qual modelo teve a melhor performance, e levará o
+      grande prêmio: uma cesta de chocolates! A seguir o vídeo deste site sendo desenvolvido:</h3>
+      <video controls muted class="video1">
+        <source src="eu.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+      </video>
+    
+  </section>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
