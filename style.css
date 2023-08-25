@@ -36,6 +36,16 @@ section {
   height: 20%;
 }
 
+.titulos1 {
+  font-size: 32px;
+  color: white;
+  background-color: #212529;
+  width: 20%;
+  margin: 0 auto;
+  border-radius: 3%;
+  height: 20%;
+}
+
 .texto {
  
     font-size: 24px;
@@ -65,7 +75,7 @@ section {
 
 /* Exemplo de media query para telas menores, como telefones */
 @media (max-width: 768px) {
-  .titulos {
+  .titulos, .titulos1 {
     width:60%;
     font-size: 20px;
     padding: 5px; /* Reduza o espaçamento interno */
