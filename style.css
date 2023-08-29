@@ -26,6 +26,10 @@ section {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
+.winner {
+  width: 60%;
+}
+
 .titulos {
   font-size: 32px;
   color: white;
